@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Spy",
+    "version": "1.0",
+    "description": "It spy.",
+    "homepage_url": "https://github.com/Sliden101/chromeSpy",
+    "content_scripts": [
+        {
+          "js": ["log.js"],
+          "matches": ["<all_urls>"]
+        }
+      ],
+      "permissions": [
+        "tabs",
+        "storage"
+      ]
+}
